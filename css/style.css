@@ -1,0 +1,146 @@
+*{ 
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color:#eee;
+   height: 1040px
+;
+}
+ul{
+    background-color: slategray;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+ul li {
+    display: inline-block;
+ margin-left: 40px;
+
+}
+ul li :hover{
+    opacity: 3;
+ background-color:rgb(101, 116, 131);
+ padding-top: 5px;
+ padding-bottom: 5px;
+}
+ul li a {
+    color:beige;
+    text-decoration: none; 
+}
+.main_img {  
+    height: 500px;
+     background-image: url('../images/main.jpg');
+         background-size: cover;
+         background-repeat: no-repeat;
+         background-position: center center;
+         
+          
+      
+}
+
+.our-features{
+    width: 650px;
+    background-color:slategray;
+   height: 400PX;
+   margin-top: 45px;
+   margin-left: 700px;
+   position: relative;
+  
+    
+}
+.feature1{
+   text-transform: uppercase;
+   text-align: center;
+    padding-top: 15px;
+
+}
+.feature2{
+    padding-top: 55px;
+    padding-left: 50px;
+    text-align: left;
+    font-size: 30px;
+    color: rgb(243, 243, 186);
+    font-family: "Times New Roman", Times, serif;
+    display: flex;
+ 
+   
+ 
+
+}
+.feature2:hover{
+    color: rgb(216, 216, 182);
+    background-color:rgb(77, 93, 107);
+    justify-content: center;
+    text-align: center;
+
+}
+.feature2 i {
+color: rgb(36, 30, 30);
+font-size: 40px;
+
+}
+.feature2 h3 {
+    padding-left: 15px;
+}
+.fati  {
+ color: rgb(43, 37, 71);
+ font-size: 32px;
+ text-shadow: 9mm;
+ margin-top: 20px;
+
+ background-color: rgb(241, 241, 214);
+ padding-top: 30px;
+ padding-left: 40px;
+ padding-bottom: 25px;
+ text-align: center;
+
+}
+
+.feature3{
+    background-color:bisque;
+   
+    height: 430px;
+    color: rgb(56, 75, 94);
+    width: 690px;
+    position: absolute;
+    margin-top: 30px;
+   margin-left: 40px;
+  
+  
+}
+.button {
+  
+    font-size: 20px;
+  padding-left: 230px;
+   
+  
+ 
+}
+    .feature4{
+        padding-left: 120px;
+        padding-top: 70px; 
+        font-size: 40px;
+       
+
+    }
+    .input{
+        margin-bottom: 30px;
+    }
+    .input input{
+        width: 200px;
+        height: 27px;
+        border: 2px solid   rgb(27, 53, 80);
+        border-radius: 10px;
+    }
+    .button button{
+    width: 90px;
+    height: 30px;
+    color: rgb(224, 224, 238);
+    background-color:rgb(6, 41, 77);
+    font-size: 20px;
+    border: 2px solid rgb(6, 41, 77);
+    border-radius: 10px;
+    }
+    
